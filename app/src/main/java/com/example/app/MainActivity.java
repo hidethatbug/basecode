@@ -1,13 +1,27 @@
 package com.example.app;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.example.app.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public int BindLayout() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    public void BindId() {
+
+    }
+
+    @Override
+    public void BindData() {
+
+    }
+
+    @Override
+    public void BindListenr() {
+
     }
 }
