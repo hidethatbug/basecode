@@ -14,7 +14,7 @@ public class UserPresenterImpl implements IUserContract.IUserPresenter {
     public void attach(IUserContract.IUserView view) {
         this.view = view;
 
-
+    //这是一个分支
     }
 
     @Override
